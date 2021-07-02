@@ -1,9 +1,13 @@
-let estaSol = true;
+let numero = -1;
 
-if(estaSol){
-    console.log("Vou para praia");
+if(numero > 0){
+    console.log("Número positivo");
+}
+
+else if(numero == 0) {
+    console.log("Número é zero");
 }
 
 else {
-    console.log('Vou para o campo');
+    console.log('Número negativo');
 }
